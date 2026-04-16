@@ -47,12 +47,12 @@ custom banner by Exotic GANK */
 #endif
 
 const char linux_banner[] =
-    "Linux version " UTS_RELEASE " (" LINUX_COMPILE_BY "@" LINUX_COMPILE_HOST ")\n"
-    "(Android (MoratX-002, +pgo, +bolt, +lto, +mlgo, based on llvm-project) Clang 19.0.0 (Neutron), LLD 19.0.0)\n"
-    "Crafted in " BUILD_DATE "\n";
+    "Linux version " UTS_RELEASE " (" LINUX_COMPILE_BY "@" LINUX_COMPILE_HOST ") "
+    "(Android Clang 19.0.0 (Neutron)) "
+    UTS_VERSION "\n";
 
 const char linux_proc_banner[] =
     "%s version %s"
     " (" LINUX_COMPILE_BY "@" LINUX_COMPILE_HOST ") "
-    "(Android (MoratX-002, +pgo, +bolt, +lto, +mlgo, based on llvm-project) Clang 19.0.0 (Neutron), LLD 19.0.0) "
-    "Crafted in " BUILD_DATE "\n";
+    "(Android Clang 19.0.0 (Neutron)) "
+    UTS_VERSION "\n";
