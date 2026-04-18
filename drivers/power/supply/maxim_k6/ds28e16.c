@@ -1732,8 +1732,8 @@ static const struct attribute_group ds_attr_group = {
 	.attrs = ds_attributes,
 };
 
-#define VERIFY_PERIOD_S		(5*1000)
-#define VERIFY_MAX_COUNT	5
+#define VERIFY_PERIOD_S		(1*1000)
+#define VERIFY_MAX_COUNT	2
 static void battery_verify(struct work_struct *work)
 {
 	int result, i;
